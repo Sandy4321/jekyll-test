@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 description: This is Dython
 logo: /j.png
+show_downloads: true
