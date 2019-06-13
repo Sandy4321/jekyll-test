@@ -6,6 +6,6 @@ title: My Test
 
 {% for page in site.pages %}
   {% if page.type == 'doc' %}
-* [{{page.title}}]({{page.url}})
+* [{{page.title}}](/jekyll-test{{page.url}})
   {% endif %}
 {% endfor %}
