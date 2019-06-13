@@ -2,13 +2,10 @@
 title: My Test
 ---
 
-<h1> pages: </h1>
-<ul>
+# pages:
+
 {% for page in site.pages %}
   {% if page.type == 'doc' %}
-    <li> 
-      <a href={{page.url}}> {{page.title}} </a>
-    </li>
+      * [{{page.title}}]({{page.url}}) </a>
   {% endif %}
 {% endfor %}
-</ul>
